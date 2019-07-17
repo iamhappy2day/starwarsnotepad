@@ -1,0 +1,12 @@
+.app {
+	background: black;
+	padding: 50px;
+	background: url(https://www.mfortyfive.com/wp-content/uploads/2017/10/Stars-wallpaper-HD-desktop-1024x576.jpg);
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 40px;
+}

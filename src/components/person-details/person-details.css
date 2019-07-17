@@ -1,0 +1,50 @@
+.person-info {
+	color:#fff;
+}
+.person-info ul {
+	padding-left: 10px;
+}
+.person-info ul li {
+	list-style: none;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	margin-bottom: 8px;
+}
+.person-info ul li:last-child{
+	border-bottom: none;
+}
+.person-details {
+	display: flex;
+	width: 50%;
+	justify-content: center;
+	min-width: 460px;
+}
+.person-img {
+	width: 200px;
+	height: 260px;	
+	border-radius: 10px;
+	margin-right: 50px;
+}
+
+.person-image {
+	width:100%;
+	height: 100%;
+}
+
+
+@media (max-width: 725px) {
+	.person-details{
+		width: 100%;
+		flex-wrap: wrap;
+		min-width: auto;
+	}
+}
+@media (max-width: 555px) {
+	.person-img {
+		margin-right: 0px;
+		margin-bottom: 15px;
+		text-align: center;
+	}
+	.person-info {
+		text-align:center;
+	}
+}

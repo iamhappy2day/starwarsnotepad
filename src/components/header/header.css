@@ -1,0 +1,17 @@
+.header ul li {
+	list-style: none;
+	margin-right: 40px;
+	cursor: pointer;
+	color: green;
+}
+
+.header ul {display: flex; margin: 0px;}
+
+.header {
+	text-align: center;
+}
+
+h1 {
+	margin: 0px; 
+	color:#FFF;
+}

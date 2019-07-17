@@ -1,0 +1,40 @@
+.itemList ul li {
+	color:#fff;
+	padding: 10px 10px 10px 40px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	transition: 0.4s;
+}
+
+.itemList ul {
+	list-style: none;
+	padding-left: 0px;
+	background: #5d6063;
+}
+.itemList ul:hover li {
+	opacity: 0.5;
+}
+.itemList ul li:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.itemList {
+	width: 50%;
+	flex-grow:1;
+	
+}
+
+@media (max-width: 1020px) {
+	.itemList{
+		width: auto;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 725px) {
+	
+	.itemList ul li {
+		padding: 10px;
+		text-align: center;
+	}
+}
