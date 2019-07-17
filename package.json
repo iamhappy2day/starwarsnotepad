@@ -2,7 +2,7 @@
   "name": "star2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/iamhappy2day/starwarsnotepad",
+  "homepage": "https://iamhappy2day.github.io/starwarsnotepad/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
